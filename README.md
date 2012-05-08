@@ -1,8 +1,8 @@
 Vagrant LAMP
 ============
 
-This repository has the configuration and all the cookbooks that you need to
-setup a simple LAMP server using Vagrant.
+This repository has the configuration and all the cookbooks needed to setup a
+simple LAMP server using Vagrant.
 
 If you use this repository, you will end up with a Linux server that has the
 following packages:
