@@ -14,16 +14,20 @@ following packages:
 Usage
 -----
 
- $ git clone https://github.com/egrajeda/vagrant-lamp.git project
- $ cd project
- $ vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
- $ vagrant up
+```
+$ git clone https://github.com/egrajeda/vagrant-lamp.git project
+$ cd project
+$ vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+$ vagrant up
+```
 
 You can skip the 3rd step if you already have done it. If you didn't name your
 Linux image as `lucid32` you will have to modify the corresponding line in
 `Vagrantfile`, for example:
 
- config.vm.box = "my-custom-name"
+```
+config.vm.box = "my-custom-name"
+```
 
 Credits
 -------
