@@ -7,9 +7,11 @@ simple LAMP server using [Vagrant](http://vagrantup.com).
 If you use this repository, you will end up with a Linux server that has the
 following packages:
 
-* Apache
-* MySQL
-* PHP
+* Apache 2.2.14
+* MySQL 5.1.63
+* PHP 5.3.2
+
+The version number depends on the current one available in the Ubuntu repositories.
 
 Usage
 -----
